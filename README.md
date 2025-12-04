@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains Quarto templates that can be used for scripting in R. These templates can be matched with templates in an electronic lab journal like [RSpace](https://www.researchspace.com/) and uploaded to RSpace using the [rspacer](https://github.com/burgerga/rspacer) package.
+This repository contains Quarto templates that can be used for scripting in R. These templates can be matched with templates in an electronic lab journal like [RSpace](https://www.researchspace.com/) and uploaded to RSpace using the [rspacer](https://github.com/lacdr/rspacer) package.
 
 ## Install templates directly in RStudio
 
@@ -19,7 +19,7 @@ remotes::install_github("LACDR/LACDR.ISA")
 2.  On the left, click From Template.
 3.  Choose either the Investigation, Study or Assay template. Make any edits and perform your analysis. Save the file as a Quarto file (.qmd).
 4.  Render the files to reports for reproducible science.
-5.  If you want to upload your Investigation, Study or Assay to Rspace, follow the [rspacer instructions](https://burgerga.github.io/rspacer).
+5.  If you want to upload your Investigation, Study or Assay to Rspace, follow the [rspacer instructions](https://lacdr.github.io/rspacer).
 
 ## Installation when you want to edit these templates or add custom templates
 
@@ -50,7 +50,7 @@ This repository is meant to be very general for our research institute, the [LAC
 
 Currently (29-06-2024), creating Quarto documents from templates in RStudio is not possible. That is why we decided to use the R Markdown From Template buttons. If this is possible in the future, we aim to update this repository.
 
-This repository is developed in parallel with [rspacer instructions](https://burgerga.github.io/rspacer) and [R_templates_dds](https://github.com/hleegwater/R_templates_dds). It may happen that we forget to include changes in this repository after a new rspacer release. Please let us know if there are any issues!
+This repository is developed in parallel with [rspacer instructions](https://lacdr.github.io/rspacer) and [R_templates_dds](https://github.com/hleegwater/R_templates_dds). It may happen that we forget to include changes in this repository after a new rspacer release. Please let us know if there are any issues!
 
 # References
 
